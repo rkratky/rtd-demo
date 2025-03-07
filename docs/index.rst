@@ -21,25 +21,31 @@ In this documentation
 ---------------------
 
 .. grid:: 1 1 2 2
+   :gutter: 3
 
-   .. grid-item:: :doc:`Tutorial </index>`
+   .. grid-item-card:: **Tutorial**
+       :link: tutorial/index
+       :link-type: doc
 
        **Start here**: a hands-on introduction to Example Product for new users
 
-   .. grid-item:: :doc:`How-to guides </index>`
+   .. grid-item-card:: **How-to guides**
+       :link: howto/index
+       :link-type: doc
 
-      **Step-by-step guides** covering key operations and common tasks
+       **Step-by-step guides** covering key operations and common tasks
 
-.. grid:: 1 1 2 2
-   :reverse:
+   .. grid-item-card:: **Explanation**
+       :link: explanation/index
+       :link-type: doc
 
-   .. grid-item:: :doc:`Reference </index>`
+       **Discussion and clarification** of key topics
 
-      **Technical information** - specifications, APIs, architecture
+   .. grid-item-card:: **Reference**
+       :link: reference/index
+       :link-type: doc
 
-   .. grid-item:: :doc:`Explanation </index>`
-
-      **Discussion and clarification** of key topics
+       **Technical information** - specifications, APIs, architecture
 
 ---------
 
@@ -60,4 +66,7 @@ Example Project is a member of the Ubuntu family. It’s an open source project 
    :hidden:
    :maxdepth: 2
 
-   self
+   tutorial/index
+   howto/index
+   reference/index
+   explanation/index
